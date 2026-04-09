@@ -1,4 +1,21 @@
 body{
     background-color:#DAA520;
-    
 }
+.container{
+    width: 300px;              /* largura do conteúdo */
+    height: auto;             /* altura do conteúdo */
+    padding: 20px;              /* espaço interno */
+    border: 3px solid #333;     /* borda */
+    margin: 20px auto;          /* espaço externo e centralização */
+    background-color: #f0f0f0;  /* cor de fundo */
+    box-sizing: border-box;     /* inclui padding e borda no cálculo do tamanho */
+    border-radius: 10px;        /* cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra */
+    text-align: center;         /* centraliza o texto */
+    font-family: Arial, sans-serif;
+    text-decoration-color: black;
+}
+a {
+        color: rgb(0, 0, 0); /* Pode ser nome, hexadecimal, rgb, etc. */
+        text-decoration: none; /* Remove o sublinhado (opcional) */
+    }
